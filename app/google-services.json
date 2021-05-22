@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "338085530553",
+    "project_id": "orange-weather-map",
+    "storage_bucket": "orange-weather-map.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338085530553:android:a0fdca52917e4a1ea78468",
+        "android_client_info": {
+          "package_name": "com.startandroid.develop.globalweatherapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338085530553-g9etuj1f0drj4ius3s0ddbgkosnl9sut.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.startandroid.develop.globalweatherapp",
+            "certificate_hash": "edde1d492eae0736749f222bea14ccdfba4a9bf3"
+          }
+        },
+        {
+          "client_id": "338085530553-u930md8nkvtjiufdn9bei7fp9hrbdkfm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOx4ypgBiUZf9D3mJvLplI-kVBVkfL5ic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338085530553-u930md8nkvtjiufdn9bei7fp9hrbdkfm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/colorAccent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iconIv"
+        android:layout_width="122dp"
+        android:layout_height="111dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/weather" />
+
+    <TextView
+        android:id="@+id/captionTv"
+        style="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iconIv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:text="Global Weather Map"
+        android:textColor="#FF5722"
+        android:textDirection="firstStrong"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/GoogleSingInButton"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="210dp"
+        android:layout_below="@+id/GoogleSingInButton"/>
+
+
+    <ImageView
+        android:id="@+id/logoWeather"
+        android:layout_width="134dp"
+        android:layout_height="89dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="1dp"
+        android:src="@drawable/openweatherlogo" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Global Weather Map</string>
+    <string name="facebook_app_id">883053069093426</string>
+    <string name="fb_login_protocol_scheme">fb883053069093426</string>
+    <string name="map_key">AIzaSyD66DVQXLJKc5OHKvPiPptG9GiOpZpmjfg</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
